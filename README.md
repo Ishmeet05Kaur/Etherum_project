@@ -7,20 +7,20 @@ MercedesToken is a simple Solidity smart contract that implements a basic ERC20-
 3. Total Supply: Dynamic, starting at 0 and changing with minting and burning actions.
 ## Features
 1. Public Variables:
-   tokenName: The name of the token.
-   tokenAbbrv: The abbreviation of the token.
-   totalSupply: The total supply of tokens.
+   1. tokenName: The name of the token.
+   2. tokenAbbrv: The abbreviation of the token.
+   3. totalSupply: The total supply of tokens.
    
 3. Mapping:
--> balances: A mapping from addresses to their respective balances.
+   1. balances: A mapping from addresses to their respective balances.
    
-4. Mint Function:
--> Increases the total supply by a specified value.
--> Increases the balance of a specified address by the same value.
+5. Mint Function:
+   1. Increases the total supply by a specified value.
+   2. Increases the balance of a specified address by the same value.
    
-5. Burn Function:
--> Decreases the total supply by a specified value.
--> Decreases the balance of a specified address by the same value, provided the address has a sufficient balance.
+7. Burn Function:
+   1. Decreases the total supply by a specified value.
+   2. Decreases the balance of a specified address by the same value, provided the address has a sufficient balance.
 ## Functions
 mint
 ```javascript
