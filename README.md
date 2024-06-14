@@ -21,7 +21,7 @@ MercedesToken is a simple Solidity smart contract that implements a basic ERC20-
 4. Burn Function:
 -> Decreases the total supply by a specified value.
 -> Decreases the balance of a specified address by the same value, provided the address has a sufficient balance.
-## Funtions
+## Functions
 mint
 ```javascript
 function mint(address m_address, uint m_value) public
